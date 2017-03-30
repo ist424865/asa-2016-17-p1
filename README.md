@@ -1,8 +1,5 @@
-# Análise e Síntese de Algoritmos - 1º Projeto
-<br/>
-## _Data Limite de Entrega: 24 de Março de 2017_
-<br/>
-### **Descrição do Problema**
+## Análise e Síntese de Algoritmos - 1º Projeto
+### Descrição do Problema
 
 O Sr. João decidiu fazer um album de fotografias. Ao abrir uma gaveta num móvel da arrecada-
 ção o Sr. João encontrou uma grande quantidade de fotografias que tinha acumulado ao longo
@@ -23,8 +20,7 @@ indicar esse problema. Também pode acontecer que o Sr. João se tenha enganado 
 das relações que indicou e que portanto não é possível indicar uma ordem coerente. O software
 também deve indicar esse problema.
 
-<br/>
-### **Input**
+### Input
 
 O ficheiro de entrada contém a informação sobre a ordem relativa de alguns pares de fotografias.
 1
@@ -35,9 +31,7 @@ conhecida a ordem L separados por um espaço em branco.
 espaço em branco) indicando que a primeira fotografia ocorreu antes da segunda.
 Assume-se que a identificação das fotografias é um inteiro entre 1 e N.
 
-<br/>
-
-### **Output**
+### Output
 
 O seu programa deverá escrever no output a seguinte informação:
 - Caso não seja possível determinar uma organização temporal das fotografias porque há relações
@@ -55,8 +49,10 @@ fim de linha.
 
 <br/>
 <hr>
-### **Exemplos**
+
+### Exemplos
 <br/>
+
 **Input 1**
 
 `4 4
@@ -70,6 +66,7 @@ fim de linha.
 `Incoerente`
 
 <br/>
+
 **Input 2**
 
 `4 4
@@ -83,6 +80,7 @@ fim de linha.
 `Insuficiente`
 
 <br/>
+
 **Input 3**
 
 `5 6
@@ -98,6 +96,7 @@ fim de linha.
 `Incoerente`
 
 <br/>
+
 **Input 4**
 
 `5 4
@@ -111,7 +110,8 @@ fim de linha.
 `1 2 3 4 5`
 
 <br/>
-### **Implementação**
+
+### Implementação
 
 A implementação do projecto deverá ser feita preferencialmente usando as linguagens de programação
 C ou C++. Submissões em linguagem Java também são aceitáveis, devendo no en-
@@ -120,7 +120,8 @@ tanto ter particular atenção a aspectos de implementação.
 O tempo estimado para implementar este projecto é inferior a 10 horas.
 
 <br/>
-### **Submissão do Projecto**
+
+### Submissão do Projecto
 
 A submissão do projecto deverá incluir um relatório resumido e um ficheiro com o código
 fonte da solução. Serão utilizadas as plataformas Mooshak para a submissão do código e Fénix
@@ -149,7 +150,8 @@ projecto. Os relatórios têm que ser submetidos no sistema Fénix; não existe 
 submissão dos relatórios.
 
 <br/>
-### **Avaliação**
+
+### Avaliação
 
 O projecto deverá ser realizado em grupos de um ou dois alunos e será avaliado em duas fases.
 Na primeira fase, durante a submissão, cada implementação será executada num conjunto de
@@ -157,7 +159,8 @@ testes, os quais representam 80% da nota final. Na segunda fase, o relatório se
 nota do relatório contribui com 20% da nota final.
 
 <br/>
-### **Avaliação Automática**
+
+### Avaliação Automática
 
 A primeira fase do projecto é avaliada automaticamente com um conjunto de testes, os quais são
 executados num computador com o sistema operativo GNU/Linux. É essencial que o código
